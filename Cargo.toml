@@ -1,8 +1,9 @@
 [package]
 name = "pagino"
-version = "0.1.0"
+version = "1.0.0"
 authors = ["Behnam Mohammadi <itten@live.com>"]
-edition = "2021"
+edition = "2018"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
