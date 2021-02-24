@@ -4,7 +4,11 @@ version = "1.0.0"
 authors = ["Behnam Mohammadi <itten@live.com>"]
 edition = "2018"
 
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+description = "Handle pagination's logic"
+homepage = "https://github.com/pagino/pagino-rust"
+documentation = "https://github.com/pagino/pagino-rust"
+repository = "https://github.com/pagino/pagino-rust"
+readme = "README.md"
+keywords = ["pagination"]
+categories = ["pagination"]
+license = "MIT"
