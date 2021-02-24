@@ -1,6 +1,6 @@
 [package]
 name = "pagino"
-version = "1.0.1"
+version = "1.0.2"
 authors = ["Behnam Mohammadi <itten@live.com>"]
 edition = "2018"
 
@@ -10,5 +10,5 @@ documentation = "https://github.com/pagino/pagino-rust"
 repository = "https://github.com/pagino/pagino-rust"
 readme = "README.md"
 keywords = ["pagination"]
-categories = ["algorithms"]
+categories = ["algorithms", "web-programming", "data-structures"]
 license = "MIT"
