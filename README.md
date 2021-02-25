@@ -8,7 +8,7 @@ Add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-pagino = "1.0.2"
+pagino = "1.0.3"
 ```
 
 ## Example
@@ -36,10 +36,23 @@ fn main(){
     pages: [-1, -2, 1, -3, 4, 5, 6, -4, 10, -5, -6];
   */
 }
+```
 
+## Methods:
+
+```rust
+pagino.get_pages() -> Vec<i32>;
+pagino.set_page(i32) -> ();
+pagino.set_count(i32) -> ();
+
+pagino.first() -> ();
+pagino.previous() -> ();
+pagino.next() -> ();
+pagino.last() -> ();
 ```
 
 ## What are negative numbers?
+
 All negative numbers are navigate element
 
 ```rust
@@ -52,6 +65,7 @@ All negative numbers are navigate element
 ```
 
 ## Pagino config
+
 ```rust
 show_first: bool
 show_previous: bool
@@ -62,3 +76,8 @@ count: i32
 sibling_count: i32
 boundary_count: i32
 ```
+
+## Links:
+
+https://github.com/pagino/pagino-rust
+https://crates.io/crates/pagino

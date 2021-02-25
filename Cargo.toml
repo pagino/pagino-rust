@@ -1,6 +1,6 @@
 [package]
 name = "pagino"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["Behnam Mohammadi <itten@live.com>"]
 edition = "2018"
 
