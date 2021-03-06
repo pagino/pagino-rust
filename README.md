@@ -8,7 +8,7 @@ Add this to your Cargo.toml:
 
 ```toml
 [dependencies]
-pagino = "1.0.3"
+pagino = "1.0.5"
 ```
 
 ## Example
